@@ -1,28 +1,61 @@
-<h1 align="center">
-  <img src="https://vidafullstack.com.br/wp-content/uploads/2020/07/angular.png" alt="" width="150">
-  <br>
-    Projeto Prático: Portfólio
-  <br>
-  https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
-</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-## :custard: Descrição
+        h1, h2 {
+            color: #007bff;
+        }
 
-Use este código para fazer consultas caso tenha dúvidas no curso.
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-## :custard: Acesse o GhPages
+        li {
+            margin-bottom: 10px;
+        }
 
-<strong>Link:</strong> https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
 
-## :custard: Aprenda a subir o seu código no ghPages
+        a:hover {
+            text-decoration: underline;
+        }
 
-<strong>Adicione ao seu projeto:</strong> ng add angular-cli-ghpages@latest
-<br>
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
 
-<strong>Faça o deploy:</strong> ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browser/
+<h1>Lista de Tarefas</h1>
 
-<strong>Exp.:</strong> ng deploy --base-href https://troquatte.github.io/curso-angular-lista-de-tarefas/browser/
+<h2>Índice</h2>
+<ul>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#instalação">Instalação</a></li>
+    <li><a href="#como-usar">Como Usar</a></li>
+    <li><a href="#contribuindo">Contribuindo</a></li>
+    <li><a href="#licença">Licença</a></li>
+</ul>
 
----
+<h2 id="sobre">Sobre</h2>
+<p>O aplicativo Lista de Tarefas é uma ferramenta básica para gerenciar suas tarefas diárias. Ele permite que os usuários criem, visualizem, editem e excluam tarefas de uma maneira fácil e intuitiva. Este projeto foi desenvolvido como parte de um curso de introdução ao desenvolvimento web.</p>
 
-Com ♥ Dener Troquatte :wave: [Linkedin](https://www.linkedin.com/in/dener-s%C3%A3o-pedro-troquatte-ababa079/) | [Blog](https://vidafullstack.com.br/)
+<h2 id="instalação">Instalação</h2>
+<p>Para usar o aplicativo Lista de Tarefas, siga estas etapas:</p>
